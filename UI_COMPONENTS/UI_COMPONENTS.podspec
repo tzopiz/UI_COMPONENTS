@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "UI_COMPONENTS"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of UI_COMPONENTS."
   spec.description  = "custom ui components"
 
@@ -12,4 +12,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/tzopiz/UI_COMPONENTS.git", :tag => spec.version.to_s }
 
   spec.source_files  = "UI_COMPONENTS/**/*.{swift}"
+  spec.swift_versions = "5.0"
 end
