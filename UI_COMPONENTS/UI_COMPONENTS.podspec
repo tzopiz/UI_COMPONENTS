@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "UI_COMPONENTS"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.9"
   spec.summary      = "A short description of UI_COMPONENTS."
   spec.description  = "custom ui components"
   
@@ -11,8 +11,9 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "15.0"
   spec.source       = { :git => "https://github.com/tzopiz/UI_COMPONENTS.git", :tag => spec.version.to_s }
 
-  spec.resources        = 'Resources/**/*.{xib,nib,storyboard,png,jpeg,jpg,xcassets,ttf}'
-  spec.source_files     = "Classes/**/*.{swift}"
+  spec.resources        = 'UI_COMPONENTS/Resources/**/*.{swift,xib,nib,xcassets,ttf,jpeg,jpg,png}'
+  spec.source_files     = "UI_COMPONENTS/Classes/**/*.{swift,h,m}"
+  
   spec.swift_versions   = "5.0"
   
   spec.dependency 'R.swift'
