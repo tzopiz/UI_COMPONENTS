@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "15.0"
   spec.source       = { :git => "https://github.com/tzopiz/UI_COMPONENTS.git", :tag => spec.version.to_s }
 
-  spec.resources        = 'Resources/**/*'
-  spec.source_files     = "Classes/**/*"
+  spec.resources        = 'Resources/**/*.{xib,nib,storyboard,png,jpeg,jpg,xcassets,ttf}'
+  spec.source_files     = "Classes/**/*.{swift}"
   spec.swift_versions   = "5.0"
   
   spec.dependency 'R.swift'
