@@ -277,7 +277,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		0AF8A7822B10D8DB0091C29E /* R.swift generate */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -289,7 +289,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Resources/Generated/R.generated.swift\"\n";
 		};
