@@ -1,6 +1,6 @@
 //
 //  BaseView.swift
-//  Pods-test
+//  UI_COMPONENTS
 //
 //  Created by Дмитрий Корчагин on 24.11.2023.
 //
