@@ -1,7 +1,0 @@
-# Uncomment the next line to define a global platform for your project
-platform :ios, '15.0'
-
-target 'test' do
-  use_frameworks!
-  pod "UI_COMPONENTS", :path => "../UI_COMPONENTS"
-end
