@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/tzopiz/UI_COMPONENTS.git", :tag => spec.version.to_s }
 
   spec.resources        = 'UI_COMPONENTS/Resources/**/*'
-  spec.source_files     = "UI_COMPONENTS/**/*"
+  spec.source_files     = "UI_COMPONENTS/Classes/**/*"
   spec.swift_versions   = "5.0"
 end
