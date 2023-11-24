@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AF79CAF2B10031700168B6B /* UI_COMPONENTS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF79CAE2B10031700168B6B /* UI_COMPONENTS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AF79CB82B10050700168B6B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF79CB62B10050700168B6B /* BaseViewController.swift */; };
 		0AF79CB92B10050700168B6B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF79CB72B10050700168B6B /* BaseView.swift */; };
+		0AF8A73A2B10BC330091C29E /* UIComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF8A7392B10BC330091C29E /* UIComponents.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AF79CAB2B10031700168B6B /* UI_COMPONENTS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UI_COMPONENTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AF79CAE2B10031700168B6B /* UI_COMPONENTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI_COMPONENTS.h; sourceTree = "<group>"; };
 		0AF79CB62B10050700168B6B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0AF79CB72B10050700168B6B /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		0AF8A7392B10BC330091C29E /* UIComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIComponents.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,8 +33,8 @@
 		0AF79CA12B10031700168B6B = {
 			isa = PBXGroup;
 			children = (
+				0AF8A7382B10BC330091C29E /* UIComponents */,
 				0AF79CB52B10050700168B6B /* Classes */,
-				0AF79CAD2B10031700168B6B /* UI_COMPONENTS */,
 				0AF79CAC2B10031700168B6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,14 +47,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0AF79CAD2B10031700168B6B /* UI_COMPONENTS */ = {
-			isa = PBXGroup;
-			children = (
-				0AF79CAE2B10031700168B6B /* UI_COMPONENTS.h */,
-			);
-			path = UI_COMPONENTS;
-			sourceTree = "<group>";
-		};
 		0AF79CB52B10050700168B6B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +56,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		0AF8A7382B10BC330091C29E /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8A7392B10BC330091C29E /* UIComponents.h */,
+			);
+			path = UIComponents;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF79CAF2B10031700168B6B /* UI_COMPONENTS.h in Headers */,
+				0AF8A73A2B10BC330091C29E /* UIComponents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

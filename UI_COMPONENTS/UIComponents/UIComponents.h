@@ -1,6 +1,6 @@
 //
-//  UI_COMPONENTS.h
-//  UI_COMPONENTS
+//  UIComponents.h
+//  UIComponents
 //
 //  Created by Дмитрий Корчагин on 24.11.2023.
 //
