@@ -12,4 +12,5 @@ Pod::Spec.new do |spec|
   spec.resources        = 'UI_COMPONENTS/Resources/**/*'
   spec.source_files     = "UI_COMPONENTS/Classes/**/*"
   spec.swift_versions   = "5.0"
+  
 end
